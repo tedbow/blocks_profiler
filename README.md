@@ -7,6 +7,8 @@ https://www.drupal.org/project/drupal/issues/2978102
 
 ## Usage
 
+**Start with a fresh install of Drupal using the 8.6.x branch**
+
 Apply patch here: https://www.drupal.org/project/drupal/issues/2976334#comment-12644039
 
 `drupal upd`
