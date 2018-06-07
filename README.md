@@ -7,11 +7,17 @@ https://www.drupal.org/project/drupal/issues/2978102
 
 ## Usage
 
+Apply patch here: https://www.drupal.org/project/drupal/issues/2976334#comment-12644039
+
+`drupal upd`
+
+`drupal upe`
+
 Enable module
 
-To get a count of blocks use View at `/blocks-count`
-
 `drupal moi blocks_profiler`
+
+To get a count of blocks use View at `/blocks-count`
 
 Generate 10000 reusable blocks
 
