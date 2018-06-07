@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains blocks_profiler.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function blocks_profiler_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the blocks_profiler module.
+    case 'help.page.blocks_profiler':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Tests thousands of blocks') . '</p>';
+      return $output;
+
+    default:
+  }
+}

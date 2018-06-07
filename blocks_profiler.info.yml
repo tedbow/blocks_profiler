@@ -1,0 +1,7 @@
+name: 'Blocks Profiler'
+type: module
+description: 'Tests thousands of blocks'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - block_content

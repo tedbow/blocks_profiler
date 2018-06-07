@@ -1,0 +1,11 @@
+services:
+  blocks_profiler.blocks_profile_generate:
+    class: Drupal\blocks_profiler\Command\GenerateCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
+  blocks_profiler.blocks_profiler_delete:
+    class: Drupal\blocks_profiler\Command\DeleteCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }
