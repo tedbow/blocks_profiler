@@ -1,1 +1,35 @@
-# blocks_profiler
+# Drupal 8 Blocks profiler
+
+Drupal console commands to generate thousands of blocks. 
+
+Needed to test:
+https://www.drupal.org/project/drupal/issues/2978102
+
+## Usage
+
+Enable module
+
+To get a count of blocks use View at `/blocks-count`
+
+`drupal moi blocks_profiler`
+
+Generate 10000 reusable blocks
+
+`drupal bpg reusable 10000`
+
+Try to visit any page on your site as logged in user.
+It shouldn't work but if it does try another 10000.
+
+Delete all custom blocks
+
+`drupal bpd`
+
+Generate 20000 non-reusable blocks!
+
+`drupal bpg non-reusable 20000`
+
+Try to visit any page on your site as logged in user.
+It should be fine.
+
+
+
